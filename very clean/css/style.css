@@ -1,0 +1,328 @@
+@import url(//db.onlinewebfonts.com/c/470ad2519927fa4eedb66fdcd82af115?family=Museo+Sans+Rounded+700);
+@import url(//db.onlinewebfonts.com/c/62c0135163427c652ae397f327f85010?family=Museo+Sans);
+
+@font-face {font-family: "Museo Sans";
+    src: url("//db.onlinewebfonts.com/t/62c0135163427c652ae397f327f85010.eot");
+    src: url("//db.onlinewebfonts.com/t/62c0135163427c652ae397f327f85010.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/62c0135163427c652ae397f327f85010.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/62c0135163427c652ae397f327f85010.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/62c0135163427c652ae397f327f85010.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/62c0135163427c652ae397f327f85010.svg#Museo Sans") format("svg");
+}
+
+@font-face {font-family: "Museo Sans";
+    src: url("//db.onlinewebfonts.com/t/62c0135163427c652ae397f327f85010.eot");
+    src: url("//db.onlinewebfonts.com/t/62c0135163427c652ae397f327f85010.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/62c0135163427c652ae397f327f85010.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/62c0135163427c652ae397f327f85010.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/62c0135163427c652ae397f327f85010.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/62c0135163427c652ae397f327f85010.svg#Museo Sans") format("svg");
+}
+
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Avenir Heavy, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.shell {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #f7fdfe;
+    padding-top: 28px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.header__inner,
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__inner a {
+    font-family: Museo Sans, sans-serif;
+    font-weight: 700;
+    color: #82868f;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+.nav ul,
+.footer__nav--left ul,
+.socials ul,
+.footer__nav--right ul {
+    display: flex;
+}
+
+.nav li {
+    padding: 16px 38px 14px 38px;
+    border-radius: 15px;
+    background: transparent;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.nav li~li {
+    padding-left: 35px;
+}
+
+.nav li:hover {
+    padding: 16px 38px 14px 38px;
+    border-radius: 15px;
+    background: #0ebfdd;
+}
+
+.nav li a:hover {
+    color: #f7fdfe;
+    transition: color .2s ease-in;
+}
+
+.nav a {
+    font-size: 14px;
+}
+
+.intro {
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("../images/intro.jpg") no-repeat center center;
+    background-size: cover;
+    height: 600px;
+}
+
+.intro__inner {
+    color: #fff;
+    text-align: center;
+    padding-top: 322px;
+    padding-bottom: 82px;
+}
+
+.intro__head {
+    padding-bottom: 30px;
+}
+
+.intro__head h1 {
+    position: relative;
+    font-size: 44px;
+    text-transform: capitalize;
+}
+
+.intro__head h1:before,
+.intro__head h1:after {
+    font-size: 22px;
+    content: "\2605";
+}
+
+.intro__head h1:before {
+    position: absolute;
+    bottom: 15px;
+    left: 315px;
+}
+
+.intro__head h1:after {
+    position: absolute;
+    bottom: 12px;
+    right: 315px;
+}
+
+.intro__body,
+.section__body {
+    font-family: Avemir Medium, sans-serif;
+    font-size: 20px;
+}
+
+.into__body {
+    padding-bottom: 83px;
+    color: #f7fdfe;
+}
+
+.section__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section__head h2 {
+    font-size: 44px;
+    text-transform: capitalize;
+}
+
+.section--about {
+    padding: 69px 0;
+}
+
+.section--about .section__head {
+    padding-bottom: 33px;
+    color: #0ebfdd;
+}
+
+.section--about .section__body {
+    color: #45494d;
+}
+
+.section--team {
+    padding-top: 59px;
+    padding-bottom: 63px;
+    background-color: #0ebfdd;
+}
+
+.section--team .section__head {
+    padding-bottom: 106px;
+    color: #fff;
+}
+
+.section--team .teams {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section--team .teams li {
+    list-style-type: none;
+}
+
+.team {
+    padding: 0 35px;
+}
+
+.team__content {
+    padding-top: 12px;
+    padding-bottom: 104px;
+    color: #f7fdfe;
+    text-transform: capitalize;
+}
+
+.team__content h4 {
+    font-size: 18px;
+    padding-bottom: 6px;
+}
+
+.team__content p {
+    font-size: 16px;
+}
+
+.btn {
+    padding: 15px 36px 13px 36px;
+    font-weight: bold;
+    border: 1px solid #f7fdfe;
+    border-radius: 15px;
+    text-transform: uppercase;
+    background: transparent;
+    color: #f7fdfe;
+    cursor: pointer;
+}
+
+.section--location {
+    background: url("../images/map.jpg") no-repeat center center;
+    background-size: cover;
+    height: 800px;
+}
+
+.footer {
+    font-family: "Museo Sans 500", sans-serif;
+    background: #45494d;
+}
+
+.footer__inner {
+    padding-top: 36px;
+    padding-bottom: 34px;
+    border-bottom: 1px solid #5a5e62;
+}
+
+.footer__nav--left li,
+.socials li,
+.footer__nav--right li {
+    list-style-type: none;
+}
+
+.footer__nav--left li~li {
+    padding-left: 35px;
+}
+
+.footer__nav--left a,
+.socials a {
+    font-size: 12px;
+    font-weight: 500;
+    color: #d7dee4;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.socials a {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    margin: 0 7px;
+    border-radius: 50%;
+    padding: 3px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.socials a:last-of-type {
+    margin-right: 0;
+}
+
+.socials i {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: transparent;
+    border: 1px solid #d7dee4;
+    border-radius: 50%;
+    line-height: calc(40px - 6px);
+    font-size: 12px;
+    color: #d7dee4;
+    transition: .5s;
+}
+
+.footer__nav--right {
+    padding-top: 14px;
+    padding-bottom: 15px;
+}
+
+.footer__nav--right ul {
+    justify-content: flex-end;
+}
+
+.footer__nav--right a {
+    font-size: 12px;
+    color: #d7dee4;
+    text-decoration: none;
+}
+
+.footer__nav--right li:nth-of-type(1):after,
+.footer__nav--right li:nth-of-type(2):after {
+    content: '|';
+    color: #73767a;
+    padding: 0 15px;
+}
+
+.footer__nav--right a {
+    color: #73767a;
+}
+
+.footer__nav--right .no-link {
+    cursor: default;
+}
