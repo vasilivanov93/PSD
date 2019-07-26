@@ -1,0 +1,292 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Univers LT', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.shell {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.container {
+    background: url("../images/banner.jpg") no-repeat center center;
+    background-size: cover;
+    height: 834px;
+}
+
+.header {
+    padding-top: 20px;
+    padding-bottom: 17px;
+    background: #e8eae8;
+    opacity: 0.9;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding-left: 35px;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav li {
+    padding: 7px 14px 4px 13px;
+    border-radius: 2px;
+    background: transparent;
+}
+
+.nav li:last-of-type {
+    padding: 7px 14px 4px 13px;
+    border-radius: 2px;
+    background: #de6d6e;
+}
+
+.nav li ~ li {
+    margin-left: 34px;
+}
+
+.nav a {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #454545;
+}
+
+.nav li:last-of-type a {
+    color: #fff;
+}
+
+.section--about,
+.section--services {
+    text-align: center;
+}
+
+.section--about {
+    padding-top: 293px;
+    padding-bottom: 82px;
+}
+
+.section--about .section__title {
+    font-family: 'Agency FB', sans-serif;
+    font-weight: 400;
+    font-size: 70px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.section--about .section__entry {
+    padding-top: 48px;
+    font-size: 25px;
+}
+
+.section--services {
+    padding-top: 65px;
+    padding-bottom: 52px;
+    background: #fff;
+    border: 3px solid #e9e9e9;
+}
+
+.section--services .section__head {
+    text-align: center;
+}
+
+.section--services .section__title {
+    padding-bottom: 20px;
+    font-size: 35px;
+    color: #404040;
+}
+
+.section--services .section__sub__title {
+    padding-bottom: 85px;
+    font-size: 17px;
+    color: #636363;
+}
+
+.section--services .services {
+    display: flex;
+}
+
+.services {
+    padding-left: 35px;
+    padding-right: 50px;
+}
+
+.service ~ .service {
+    padding-left: 77px;
+}
+
+
+.service--3{
+    position: relative;
+}
+
+.service--3:after {
+    position: absolute;
+    content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text';
+    width: 127px;
+    top: 27%;
+    left: 40%;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
+
+.section--features {
+    padding-top: 317px;
+}
+
+.article {
+    padding-bottom: 79px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article--2 {
+    padding-bottom: 76px;
+}
+
+.article__image {
+    margin-left: 65px;
+}
+
+.article__body {
+    width: 723px;
+    margin-left: 25px;
+}
+
+.article__title {
+    padding-bottom: 17px;
+    font-size: 27px;
+    font-weight: 300;
+    color: #404040;
+}
+
+.article__entry {
+    padding-left: 2px;
+    color: #8b8b8b;
+    line-height: 1.5;
+}
+
+.footer {
+    padding-top: 37px;
+    padding-bottom: 35px;
+    background: #2a2a25;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    padding-left: 65px;
+    padding-right: 50px;
+}
+
+.col:nth-of-type(1) {
+    padding-right: 104px;
+}
+
+.col:nth-of-type(2) {
+    padding-right: 83px;
+}
+
+.col:nth-of-type(3) {
+    padding-right: 69px;
+}
+
+.col h5 {
+    padding-bottom: 26px;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.05;
+    color: #aeaeae;
+    text-transform: capitalize;
+}
+
+.col a {
+    padding-left: 3px;
+    line-height: 1.5;
+    color: #8b8b8b;
+}
+
+.right {
+    padding-top: 17px;
+    display: flex;
+    flex-direction: column;
+}
+
+.socials ul {
+    display: flex;
+}
+
+.socials li:first-of-type {
+    margin-left: -10px;
+}
+
+.socials a {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+    padding: 12px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.socials a ~ a {
+    margin-left: 25px;
+}
+
+.socials i {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #696b6a;
+    border-radius: 50%;
+    line-height: calc(70px - 24px);
+    font-size: 21px;
+    color: #252825;
+    transition: .5s;
+}
+
+.copyright {
+    padding-top: 30px;
+    color: #8b8b8b;
+}
