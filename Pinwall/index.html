@@ -14,6 +14,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Pinwall</title>
@@ -24,50 +25,85 @@
         <div class="shell">
             <div class="header__inner">
                 <div class="menu">
-                    <a href="#" class="logo">
-                        <img src="images/logo.png" alt="logo">
-                    </a><!-- /.logo -->
+                    <div class="top">
+                        <div class="img--container">
+                            <a href="#" class="logo">
+                                <img src="images/logo.png" alt="logo">
+                            </a><!-- /.logo -->
+                        </div><!-- /.img--container -->
+                        <nav class="nav">
+                            <ul>
+                                <li>
+                                    <a href="#">Designing</a>
+                                </li>
 
-                    <nav class="nav">
-                        <ul>
-                            <li>
-                                <a href="#">Designing</a>
-                            </li>
+                                <li>
+                                    <a href="#">Development</a>
+                                </li>
 
-                            <li>
-                                <a href="#">Development</a>
-                            </li>
+                                <li>
+                                    <a href="#">Inspiration</a>
+                                </li>
 
-                            <li>
-                                <a href="#">Inspiration</a>
-                            </li>
+                                <li>
+                                    <a href="#">Freebies</a>
+                                </li>
 
-                            <li>
-                                <a href="#">Freebies</a>
-                            </li>
+                                <li>
+                                    <a href="#">Cssauthor</a>
+                                </li>
 
-                            <li>
-                                <a href="#">Cssauthor</a>
-                            </li>
-
-                            <li>
-                                <a href="#">Conatct us</a>
-                            </li>
-                        </ul>
-                    </nav><!-- /.nav -->
+                                <li>
+                                    <a href="#">Conatct us</a>
+                                </li>
+                            </ul>
+                        </nav><!-- /.nav -->
+                    </div><!-- /.top -->
+                    <div class="bottom"></div><!-- /.bottom -->
                 </div><!-- /.menu -->
 
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
                     </ol>
                     <div class="carousel-inner">
+                        <div class="carousel-item">
+
+                                <ul class="banner__socials socials">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-dribbble"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-camera"></i>
+                                        </a>
+                                    </li>
+                                </ul><!-- /.banner__socials socials -->
+
+                                <p class="banner__entry">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard
+                                </p><!-- /.banner__entry -->
+
+                                <div class="banner__action">
+                                    <button class="btn btn--social">social media</button><!-- /.btn btn--social -->
+                                </div><!-- /.banner__action -->
+
+                        </div>
+
                         <div class="carousel-item active">
-                            <div class="banner">
+
                                 <ul class="socials">
                                     <li>
                                         <a href="#">
@@ -94,14 +130,38 @@
                                 <div class="banner__action">
                                     <button class="btn btn--social">social media</button><!-- /.btn btn--social -->
                                 </div><!-- /.banner__action -->
-                            </div><!-- /.banner -->
                         </div>
-                        <!--                        <div class="carousel-item">-->
-                        <!--                            <img class="d-block w-100" src="..." alt="Second slide">-->
-                        <!--                        </div>-->
-                        <!--                        <div class="carousel-item">-->
-                        <!--                            <img class="d-block w-100" src="..." alt="Third slide">-->
-                        <!--                        </div>-->
+
+                        <div class="carousel-item">
+
+                                <ul class="socials">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-dribbble"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-camera"></i>
+                                        </a>
+                                    </li>
+                                </ul><!-- /.socials -->
+
+                                <p class="banner__entry">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard
+                                </p><!-- /.banner__entry -->
+
+                                <div class="banner__action">
+                                    <button class="btn btn--social">social media</button><!-- /.btn btn--social -->
+                                </div><!-- /.banner__action -->
+
+                        </div>
                     </div>
                 </div>
             </div><!-- /.header__inner -->
