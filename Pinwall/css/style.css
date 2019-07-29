@@ -209,3 +209,34 @@ img {
 .section--about .section__entry {
     color: #8d8d8d;
 }
+
+.section--blog {
+    padding-top: 58px;
+    padding-bottom: 61px;
+    background: #1dc896;
+}
+
+.article:first-of-type {
+    padding-left: 20px;
+}
+
+.article:last-of-type {
+    padding-right: 87px;
+}
+
+.article~.article {
+    padding-left: 121px;
+}
+
+.article__title {
+    padding-bottom: 22px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.4;
+    color: #eaf8f3;
+}
+
+.article__entry {
+    color: #fff;
+    line-height: 1.6;
+}
