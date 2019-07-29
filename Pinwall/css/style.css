@@ -44,6 +44,10 @@ img {
     display: flex;
 }
 
+.menu {
+    padding-left: 20px;
+}
+
 .img--container,
 .nav {
     padding: 0 48px;
@@ -145,3 +149,24 @@ img {
     text-transform: uppercase;
 }
 
+.section__inner {
+    display: flex;
+}
+
+.section--logos .section__inner {
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.section--logos {
+    padding-top: 16px;
+    padding-bottom: 25px;
+}
+
+.section--logos .section__image:first-of-type {
+    padding-left: 20px;
+}
+
+.section--logos .section__image:last-of-type {
+    padding-right: 53px;
+}
