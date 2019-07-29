@@ -149,6 +149,11 @@ img {
     text-transform: uppercase;
 }
 
+.btn--green {
+    padding: 10px 33px 10px 25px;
+    background: #1dc896;
+}
+
 .section__inner {
     display: flex;
 }
@@ -161,6 +166,7 @@ img {
 .section--logos {
     padding-top: 16px;
     padding-bottom: 25px;
+    background: #f4f4f4;
 }
 
 .section--logos .section__image:first-of-type {
@@ -169,4 +175,37 @@ img {
 
 .section--logos .section__image:last-of-type {
     padding-right: 53px;
+}
+
+.section--about {
+    padding-top: 74px;
+    padding-bottom: 48px;
+    text-align: center;
+}
+
+.section--about .section__inner {
+    flex-direction: column;
+}
+
+.section--about .section__head {
+    padding-left: 170px;
+    padding-right: 211px;
+    padding-bottom: 47px;
+}
+
+.section--about .section__title {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #797979;
+}
+
+.section--about .section__body {
+    padding-left: 60px;
+    padding-right: 100px;
+    padding-bottom: 49px;
+}
+
+.section--about .section__entry {
+    color: #8d8d8d;
 }
